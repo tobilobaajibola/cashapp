@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['local'] = array(
 	'dsn'	=> '',
-	'hostname' => '172.19.2.81:3306',
-	'username' => 'stmntapp',
-	'password' => 'Stmn!@.pp%',
-	'database' => 'statement',
+	'hostname' => 'Myipaddress',
+	'username' => 'myusername',
+	'password' => 'mypassword',
+	'database' => 'mydb',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
@@ -101,14 +101,14 @@ $db['default'] = array(
 	'hostname' => '
             (DESCRIPTION =
                 (ADDRESS_LIST =
-                  (ADDRESS = (PROTOCOL = TCP)(HOST = 172.19.20.60)(PORT = 1521))
+                  (ADDRESS = (PROTOCOL = TCP)(HOST = Myipaddress)(PORT = 1521))
                 )
                 (CONNECT_DATA =
                   (SID = tajrep)
                 )
               )',
-	'username' => 'APPSUPT',
-	'password' => 'v!&3#5!8p$uT',
+	'username' => 'myusername',
+	'password' => 'mypassword',
 	'database' => '',
 	'dbdriver' => 'oci8',
 	'dbprefix' => '',
@@ -133,14 +133,14 @@ $db['default'] = array(
 // 	'hostname' => '
 //             (DESCRIPTION =
 //                 (ADDRESS_LIST =
-//                   (ADDRESS = (PROTOCOL = TCP)(HOST = prodrac-scan.taj.local)(PORT = 7575))
+//                   (ADDRESS = (PROTOCOL = TCP)(HOST = myipadress)(PORT = 7575))
 //                 )
 //                 (CONNECT_DATA =
-//                   (SERVICE_NAME = prodrac)
+//                   (SERVICE_NAME = myserver)
 //                 )
 //               )',
-// 	'username' => 'APPSUPT',
-// 	'password' => 'v!&3#5!8p$uT',
+// 	'username' => 'myusername',
+// 	'password' => 'mypassword',
 // 	'database' => '',
 // 	'dbdriver' => 'oci8',
 // 	'dbprefix' => '',
